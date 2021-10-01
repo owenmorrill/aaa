@@ -9,11 +9,11 @@ For these examples, we are providing a sample vulnerable Node.js application whi
 From a terminal, navigate to the location where you cloned the repository and execute the following commands:
 
 ```bash
- kubectl apply -f goof-service.yaml
+ kubectl apply -f ./manifests/goof-service.yaml
 ```
 
 ```bash
-kubectl apply -f goof-deployment.yaml
+kubectl apply -f ./manifests/goof-deployment.yaml
 ```
 
 Once successfully deployed you will see results as follows:
